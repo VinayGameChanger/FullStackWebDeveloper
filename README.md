@@ -19,6 +19,15 @@ What is data base?
 >Database provide space for easy addition ,retrieval, and deletion of the data
 >mySQL,postgreSQL, Microsft SQL server, Oracle data base and MongodB
 
+Full Stack Engineers use well-known combinations of technologies known as Stacks to develop websites.
+I will learn MERN Stack in this course
+What is MERN Stacks?
+>MERN stands for MongoDB,Express,React,Node
+>MongoDB--Use for Database
+>Express.js--Server Side(FrameWork)
+>React.js--Frontend Library
+>Node.js--Server side
+
 p.s
 
 
