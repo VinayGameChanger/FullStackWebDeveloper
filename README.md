@@ -1,1 +1,19 @@
 # FullStackWebDeveloper
+This is my journey to begin my carrer as a Full Stack Web developer
+
+I have to learn Frontend ,Backenend and database to complete my full stack webdeveloper course
+
+What is frontend development?
+>Visible part of a website that is responsible for user experience
+>User directly interact with the froentend part of a website
+> Example of a Frontend language--HTMl,CSS and Javascript
+>Example of a Frontend framework--React.js,Angular,vue.js,Bootstrap
+
+What is Backend Development?
+>How data is fetched and displayed on the screen
+>Server side development of the app
+>manage data base using queries and APIs
+
+What is data base?
+>Database provide space for easy addition ,retrieval, and deletion of the data
+>mySQL,postgreSQL, Microsft SQL server, Oracle data base and MongodB
