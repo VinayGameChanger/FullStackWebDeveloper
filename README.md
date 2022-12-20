@@ -28,6 +28,23 @@ What is MERN Stacks?
 >React.js--Frontend Library
 >Node.js--Server side
 
+
+Module 1: Programming web with Javascript
+
+In this module, we are going to learn about the fundamentals of web, browser, JavaScript and the basics of data structures and algorithms.
+
+Module 2: Frontend Development
+
+This module will cover HTML, CSS, JavaScript on the Browser and React.js.
+
+Module 3: Backend Development
+
+This module will cover SQL, Node.js, Express.js, Microservices and MongoDB.
+
+Module 4: System Design
+
+This module will cover high-level, low-level scalable design, OS and Networking Fundamentals, Cloud Services, Advanced DSA, and Graph Theory.
+
 p.s
 
 
