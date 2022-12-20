@@ -13,6 +13,7 @@ What is Backend Development?
 >How data is fetched and displayed on the screen
 >Server side development of the app
 >manage data base using queries and APIs
+>Example of frontend framework or languages --Node.js,python,php
 
 What is data base?
 >Database provide space for easy addition ,retrieval, and deletion of the data
