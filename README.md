@@ -20,5 +20,7 @@ What is data base?
 >mySQL,postgreSQL, Microsft SQL server, Oracle data base and MongodB
 
 p.s
+
+
 What is framework?
 >A framework is a ready-made tool that speeds up the development work, makes code well organised & also solves many common problems on behalf of developers.
