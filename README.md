@@ -5,9 +5,9 @@ I have to learn Frontend ,Backenend and database to complete my full stack webde
 
 What is frontend development?
 >Visible part of a website that is responsible for user experience
->User directly interact with the froentend part of a website
+>User directly interact with the frontend part of a website
 > Example of a Frontend language--HTMl,CSS and Javascript
->Example of a Frontend framework--React.js,Angular,vue.js,Bootstrap
+>Example of a Frontend framework and library--React.js,Angular,vue.js,Bootstrap
 
 What is Backend Development?
 >How data is fetched and displayed on the screen
