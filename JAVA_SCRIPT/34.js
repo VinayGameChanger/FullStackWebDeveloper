@@ -1,4 +1,5 @@
 //for in loop in array
+//it iterates index
 // it gives index of element
 
 

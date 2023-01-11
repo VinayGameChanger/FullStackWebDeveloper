@@ -10,7 +10,7 @@ const person={
 
 //method 1
 
-//for in loop
+// for in loop
 // for(let key in person){
 //     console.log(key);
 // }

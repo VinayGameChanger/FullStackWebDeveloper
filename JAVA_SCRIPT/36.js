@@ -3,7 +3,7 @@
 //objects store key value pairs
 //objects dont have index
 
-//how to create index
+//how to create objects
 
 const person={
     name:"vinay",

@@ -1,4 +1,5 @@
 //for of loop in array
+// it itterate element
 //one more way to itterate an array using for of loop
 
 

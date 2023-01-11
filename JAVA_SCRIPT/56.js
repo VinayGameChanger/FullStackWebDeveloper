@@ -1,7 +1,7 @@
 //important array method
 
-//forEach
-//map(important)
+//forEach(it doesnot give a new array)
+//map(important)(it give a new array unlike forEach)
 //filter
 //reduce(important)
 
