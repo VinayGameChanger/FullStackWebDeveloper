@@ -1,0 +1,130 @@
+
+.tahoma{
+  font-family: Tahoma;
+  font-size: 30px;
+  font-weight: bold;
+}
+.arial{
+  font-family: arial;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.sale{
+  font-family: arial;
+  font-weight: bold;
+  color: red;
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 0;
+}
+.f1{
+  font-family: Verdana;
+
+}
+.course{
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.beginner{
+  margin: 0;
+  color: grey
+}
+.detail{
+  width: 300px;
+}
+.b1{
+  color: white;
+  background-color: green;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.shooping{
+  font-family: arial;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.d1{
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+}
+.learn{
+  color: rgb(29, 95, 207);
+  cursor: pointer;
+  text-align: center;
+}
+.align{
+  text-align: center;
+  font-family: arial;
+  margin: 0;
+}
+.new{
+  color: red;
+  margin-bottom: 6px;
+
+}
+.mac{
+  font-weight: bold;
+  font-size:20px;
+  margin-bottom: 6px;
+}
+.super{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+.from{
+  margin-bottom: 10px;
+}
+.btn{
+  background-color: rgb(29, 95, 207);
+  border: none;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 15px;
+  margin: auto;
+  cursor: pointer;
+}
+.mm{
+  margin: 0;
+}
+.price{
+font-size: 32px;
+font-weight: bold;
+margin-bottom: 8px;
+
+}
+.usd{
+  font-size: 20px;
+  font-weight: normal;
+  color: rgb(100, 88, 88);
+  margin-bottom: 8px;
+}
+.change{
+  color: green;
+  margin-bottom: 8px;
+}
+.red{
+  margin-bottom: 30px;
+  color: red;
+}
+.hour{
+  margin-bottom: 30px;
+  color: rgb(100, 98, 98);
+}
+.head{
+  font-weight: bold;
+}
+.c1{
+  color: grey;
+  font-weight: normal;
+}
+.chp{
+  color: rgb(11, 136, 181);
+}

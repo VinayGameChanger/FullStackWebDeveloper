@@ -1,0 +1,48 @@
+
+/* css specity==selector which is more specific have higher priority means class>* */
+*{
+  font-family: arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.para {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  width: 300px;
+  line-height: 24px;
+  margin-bottom: 5px;
+}
+.views {
+  font-size: 14px;
+  color: #606060;
+  margin-bottom: 20px;
+}
+.name {
+  color: #606060;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+/* paragraph by default comes with margin at top and bottom */
+
+.detail {
+  width: 300px;
+  color: #606060;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 50px;
+}
+.apple{
+  margin-top: 0;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  padding: 18px 20px;
+  font-size: 14px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.shop:hover{
+text-decoration:underline;
+cursor: pointer;
+}

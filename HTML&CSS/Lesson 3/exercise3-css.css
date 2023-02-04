@@ -5,6 +5,14 @@
   width: 130px;
   cursor: pointer;
 }
+.uber:hover{
+  opacity: 0.8;
+}
+
+
+
+
+
 .amazon{
   background-color: rgb(255, 216, 20);
   color: black;
@@ -15,6 +23,19 @@
   cursor: pointer;
   font-weight: bold ;
 }
+.amazon:hover{
+  background-color: rgb(222, 187, 33);
+}
+.amazon:active{
+  opacity: 0.5;
+}
+
+
+
+
+
+
+
 .github{
   background-color: rgb(46,164,79);
   color: white;
@@ -25,6 +46,13 @@
   cursor: pointer;
   border:none;
 }
+.github:hover{
+  box-shadow: 0px 5px 5px rgba(121, 113, 113,0.5);
+}
+
+
+
+
 .boot-strap{
   background-color: rgb(121,82,179);
   color: white;
@@ -36,6 +64,15 @@
   border:none;
   margin-right: 8px;
 }
+.boot-strap:hover{
+background-color:rgb(100, 70, 145) ;
+}
+
+
+
+
+
+
 .boot-strap-download{
   background-color: white;
   color: black;
@@ -46,6 +83,14 @@
   cursor: pointer;
   border: 1px solid rgb(121,82,179);
 }
+.boot-strap-download:hover{
+  background-color:rgba(128,128,128) ;
+  color: white;
+}
+
+
+
+
 .linkedIn{
   background-color: rgb(10,102,194);
   color: white;
@@ -56,6 +101,14 @@
   cursor: pointer;
   font-weight: bold;
 }
+.linkedIn:hover{
+  background-color: rgb(10, 84, 158);
+}
+
+
+
+
+
 .LinkedIn-save{
   background-color: white;
   color: black;
@@ -67,6 +120,16 @@
   cursor: pointer;
   margin-left: 8px;
 }
+.LinkedIn-save:hover{
+  border: 2.5px solid rgb(0, 103, 205);
+  background-color: rgb(199, 226, 252);
+}
+
+
+
+
+
+
 .amazon-buy{
   background-color: rgb(255, 164, 28);
   color: black;
@@ -78,9 +141,23 @@
   font-weight: bold ;
   margin-left: 8px;
 }
+.amazon-buy:hover{
+  background-color: rgb(255, 200, 0);
+}
+.amazon-buy:active{
+  opacity: 0.5;
+}
+
+
+
+
+
 .stock{
 color:rgb(0,118,0)
 }
 .back-to-amazon{
 color: rgb(0,113,133);
+}
+.back-to-amazon:hover{
+  color: red;
 }
