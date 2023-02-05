@@ -1,0 +1,160 @@
+* {
+  font-family: arial;
+}
+body {
+  margin-bottom: 200px;
+}
+.red {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+}
+.green {
+  height: 300px;
+  width: 300px;
+  background-color: green;
+  border-radius: 1000px;
+}
+.b1 {
+  width: 250px;
+  border: 2px solid grey;
+}
+.para1 {
+  padding: 5px 10px;
+  margin: 5px;
+}
+.yes {
+  margin-left: 20px;
+  margin-bottom: 12px;
+  margin-right: 5px;
+  margin-top: 7px;
+}
+
+.black {
+  background-color: black;
+  width: 400px;
+  margin-bottom: 100px;
+  padding-bottom: 16px;
+}
+.yt {
+  color: white;
+  padding: 16px 20px;
+  margin: 0;
+  font-weight: bold;
+  font-size: 32px;
+}
+.music {
+  color: grey;
+  font-size: 16px;
+  margin: 0;
+  padding: 0px 20px;
+}
+.align {
+  vertical-align: middle;
+}
+.pic {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.box {
+  border: none;
+  color: rgb(75, 72, 72);
+  font-size: 16px;
+  margin-right: 50px;
+}
+.tweet-btn {
+  background-color: rgb(4, 131, 249);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.e9 {
+  border: none;
+  width: 430px;
+  padding: 10px 10px;
+  box-shadow: 1px 1px 3px grey;
+  border-radius: 5px;
+}
+
+/* 9f */
+
+.friend {
+  display: inline-block;
+  box-shadow: 1px 1px 5px grey;
+  width: 170px;
+  padding-bottom: 5px;
+}
+.kim {
+  width: 170px;
+  height: 220px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.name {
+  margin: 0;
+  margin-top: 5px;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.mutual {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+}
+.add {
+  color: white;
+  background-color: rgb(24, 67, 208);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-left: 5px;
+  cursor: pointer;
+
+}
+
+/* 9h. */
+.img {
+  width: 400px;
+  height: 100px;
+  object-fit: cover;
+}
+.google {
+  width: 400px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 100px;
+}
+
+.div1,
+.div2,
+.div3 {
+  text-align: center;
+}
+
+.div2 {
+  margin-bottom: 35px;
+}
+.search-btn {
+  padding: 10px 20px;
+  border: none;
+  margin-right: 4px;
+  cursor: pointer;
+
+}
+
+.lucky-btn {
+  padding: 10px 20px;
+  border: none;
+  margin-left: 4px;
+  cursor: pointer;
+}

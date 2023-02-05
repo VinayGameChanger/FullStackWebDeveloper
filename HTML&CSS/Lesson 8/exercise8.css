@@ -1,0 +1,106 @@
+.name,.email1{
+  display: block;
+}
+
+.align{
+  vertical-align: middle;
+}
+.name{
+  margin-bottom: 5px;
+}
+.chat{
+  display: inline-block;
+  width: 215px;
+}
+
+.yes{
+  margin-right: 3px;
+}
+.img{
+  width: 400px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+}
+.google{
+  width: 400px;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 100px;
+}
+
+.email,.sign-up{
+  display: block;
+}
+.first{
+  width: 150px;
+  padding: 0;
+  margin-right: 5px;
+  margin-bottom: 12px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.last{
+  width: 150px;
+  padding: 10px 10px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid grey;
+}
+.email{
+  margin-bottom: 12px;
+  width: 327px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  border: 1px solid grey;
+
+}
+.sign-up{
+  background-color: rgb(1, 93, 253);
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  border: none;
+  width: 350px;
+  padding: 12px 131px;
+  border-radius: 10px;
+}
+
+.block{
+  display: block;
+}
+
+.uber{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.location,.destination{
+  padding: 12px 15px ;
+  width: 250px;
+  background-color: rgb(243, 243, 243);
+  border: none;
+}
+.destination{
+  margin-top: 8px;
+}
+
+.request{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 12px 15px;
+  margin-right: 12px;
+  margin-top: 16px;
+}
+.schedule{
+  margin-top: 16px;
+
+  background-color: rgb(243, 243, 243);
+  color: black;
+  border: none;
+  padding: 12px 15px;
+}
+

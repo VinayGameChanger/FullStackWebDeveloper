@@ -1,0 +1,18 @@
+/* there are three type of element in css
+1.block element=took entire line even if we set width eg. paragraph<p>,
+
+2.inline-block element= only takes up as much space as needed eg. image, input,span
+
+3.inline element=appear within a line of text eg. strong,ul, */
+
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+.search-bar {
+
+}
+.detail {
+  width: 300px;
+}
+
