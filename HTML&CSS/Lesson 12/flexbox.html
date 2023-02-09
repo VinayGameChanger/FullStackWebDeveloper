@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexbox</title>
+</head>
+<body style="padding-bottom: 1000px;">
+
+  <!-- grid= rigid layout
+  flexbox= flexible layout -->
+
+
+  <!-- part 1 -->
+  <div 
+  style="display: flex;
+  flex-direction: row;">
+    <div style="background-color: blue;">Div 1 text</div>
+    <div style="background-color: red;">Div 2 <p>text</p></div>
+  </div>
+
+
+<!-- part 2 -->
+  <div 
+  style="display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  ">
+    <div style="background-color: blue; width: 100px">100px</div>
+    <div style="background-color: red; flex: 1;">flex:1</div>
+  </div>
+
+
+
+<!-- part 3 -->
+  <div 
+  style="display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  ">
+    <div style="background-color: blue; width: 100px">100px</div>
+    <div style="background-color: red; flex: 1;">flex:1</div>
+    <div style="background-color: blue; flex: 2;">flex:2</div>
+  </div>
+  <!-- part 4 -->
+  <div 
+  style="display: flex;
+  flex-direction: row;
+  justify-content: end;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  margin-top: 30px;
+
+  ">
+    <div style="background-color: lightblue; width: 100px">100px</div>
+    <div style="background-color: lightpink; width: 100px">100px</div>
+    <div style="background-color: lightblue;width: 100px">100px</div>
+  </div>
+  <!-- part-5 -->
+  <div 
+  style="display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  margin-top: 30px;
+
+  ">
+    <div style="background-color: lightblue; width: 100px">100px</div>
+    <div style="background-color: lightpink; width: 100px">100px</div>
+    <div style="background-color: lightblue;width: 100px">100px</div>
+  </div>
+
+  <!-- part6 -->
+  <div 
+  style="display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: grey;
+  margin-top: 30px;
+  align-items: center; 
+/* default value of align item is stretch vertically */
+  ">
+    <div style="background-color: lightblue; width: 100px">100px</div>
+    <div style="background-color: lightpink; width: 100px">100px</div>
+    <div style="background-color: lightblue;width: 100px">100px</div>
+  </div>
+</body>
+</html>

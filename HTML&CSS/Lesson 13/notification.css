@@ -1,0 +1,60 @@
+.twitter {
+  display: flex;
+  flex-direction: row;
+  width: 400px; 
+  margin-left: 50px;
+  box-shadow: 1px 1px 3px grey;
+  padding: 20px 20px;
+}
+
+.col1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+}
+
+.col2 {
+  margin-left: 10px;
+}
+
+.col2row1 {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+span {
+  font-weight: normal;
+  color: grey;
+}
+
+body {
+  margin-top: 50px;
+}
+
+.col2row2 {
+  margin-bottom: 10px;
+}
+
+.youtube {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.youtube-col1 {
+  box-sizing: content-box;
+  margin-right: 10px;
+  width: 120px;
+  background-color: gray;
+}
+
+.yt-1 {
+  margin-top: 10px;
+  color: grey;
+  margin-bottom: 4px;
+}
+
+.yt-2 {
+  margin-bottom: 15px;
+}

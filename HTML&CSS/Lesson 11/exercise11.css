@@ -1,0 +1,64 @@
+.a11{
+  display: grid;
+  grid-template-columns: 200px 75px;
+}
+.b11{
+  display: grid;
+  grid-template-columns: 50px 1fr 75px;
+}
+.c11{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+
+
+
+/* 11d */
+
+.d11{
+  display: grid;
+  grid-template-columns: 170px 170px 170px;
+  column-gap:20px; 
+}
+
+.kim {
+  width: 170px;
+  height: 220px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.name {
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mutual-friend{
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  align-items: center;
+}
+.add {
+  color: white;
+  background-color: rgb(24, 67, 208);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.round{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.mutual-friend-pic{
+  margin-left: 5px;
+}
+.mm{
+  vertical-align: middle;
+}

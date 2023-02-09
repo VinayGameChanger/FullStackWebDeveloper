@@ -1,3 +1,4 @@
+/* grid is just like matrix */
 /* div= containers
 div is a block element .
 
@@ -15,9 +16,16 @@ The major web browsers will render a <p> tag with margin above and below the par
 3.inline element=appear within a line of text eg. strong,ul, */
 *{font-family: Roboto, Arial;}
 .thumbnail {
-  width: 300px;
-  display: block;
+  width: 100%;
 }
+
+.video-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap:16px;
+  row-gap:40px;
+}
+
 p{
   margin: 0;
 }
@@ -32,22 +40,18 @@ display: block;
   margin-bottom: 12px;
 }
 
-.video-preview{
-  vertical-align: top;
-  width: 300px;
-  display: inline-block;
-  margin-right: 15px;
+
+.video-info-grid{
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
-.channel-picture{
-  display: inline-block;
-  width: 50px;
-  vertical-align: top;
+/* .channel-picture{
+  background-color: grey;
 }
 
 .video-info{
-display: inline-block;
-width: 200px;
-}
+background-color: grey;
+} */
 .profile-picture{
   width: 40px;
   border-radius: 25px;

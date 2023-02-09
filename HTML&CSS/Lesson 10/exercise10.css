@@ -1,0 +1,92 @@
+/* .pages{
+  width: 500px;
+}
+.profile-pic{
+  width: 100px;
+  display: inline-block;
+}
+.name{
+  font-weight: bold;
+}
+.bp{
+  color: grey;
+}
+.jisoo{
+  width: 70px;
+  border-radius: 80px;
+  margin-top: 10px;
+} 
+.details{
+  width:220px ;
+  display: inline-block;
+}
+
+.follow{
+  color: white;
+  background-color: rgb(58, 58, 255);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.mm{
+  vertical-align: middle;
+}
+.btn{
+  display: inline-block;
+}
+ */
+
+
+
+
+
+/* 10e */
+
+
+
+
+
+
+.kim {
+  width: 170px;
+  height: 220px;
+  object-fit: cover;
+  object-position: bottom;
+}
+.name {
+  margin: 0;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mutual {
+  display: inline-block;
+  margin-left: 8px;
+}
+.add {
+  color: white;
+  background-color: rgb(24, 67, 208);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.round{
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+.mutual-friend-pic{
+  display: inline-block;
+  margin-left: 5px;
+}
+.mm{
+  vertical-align: middle;
+}
+.fb{
+  display: inline-block;
+}
