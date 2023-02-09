@@ -1,0 +1,109 @@
+
+/* flex-shrink:0 dont shrink
+width:0 to shrink  */
+.header {
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  width: 162px;
+  height: 24px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+.middle-section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  height: 40px;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 470px;
+}
+
+.search-bar{
+  box-sizing: border-box;
+  flex: 1;
+  width: 0;
+ height: 40px;
+ padding-left: 10px;
+ font-size: 16px;
+ border: 1px solid rgb(192,192,192);
+ box-shadow: inset 1px 2px 3px rgba(0,0,0,0.05);
+ border-radius: 2px;
+
+}
+.search-bar::placeholder{
+  font-family: Roboto,Arial;
+  font-size: 16px;
+}
+.search-btn{
+  box-sizing: border-box;
+  height: 40px;
+  width: 60px;
+background-color: rgb(241, 241, 241);
+border: 1px solid rgb(192,192,192);
+margin-left: -1px;
+
+}
+.voice-search-btn{
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 40px;
+  background-color: rgb(240, 236, 236);
+}
+.search-icon{
+height: 25px;
+margin-top: 4px;
+}
+.voice-search-icon{
+  margin-top: 2px;
+  height: 25px;
+  width: 25px;
+}
+
+.right-section {
+  width: 180px;
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.ham{
+  width: 25px;
+}
+
+
+
+.y-logo{
+  width: 80px;
+}
+.ham{
+  margin-left: 15px;
+}
+.current-user-pic{
+height: 32px;
+width: 32px;
+object-fit: cover;
+border-radius: 32px;
+}
+.upload-icon{
+  height: 24px;
+}
+.app-icon{
+  height: 24px;
+}
+.bell-icon{
+  height: 24px;
+}
