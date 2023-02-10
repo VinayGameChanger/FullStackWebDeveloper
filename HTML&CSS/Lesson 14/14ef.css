@@ -1,0 +1,117 @@
+body{
+  margin: 0;
+  height: 3000px;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  background-color: rgba(167, 169, 230, 0.566);
+  left: 0;
+  top: 0;
+  right: 0;
+  align-items: center;
+  justify-content:space-between;
+  padding: 10px 0px ;
+}
+
+.profile-pic {
+  margin-left: 120px;
+  width: 40px;
+  height: 40px;
+  border-radius: 25px;
+  object-fit: cover;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+}
+.option{
+  margin-right: 120px;
+}
+.name{
+  margin-left: 15px;
+  font-weight: bold;
+
+}
+.add-friend{
+  background-color: rgba(17, 17, 221, 0.758);
+  color: white;
+  padding: 10px 20px ;
+  border: none;
+  border-radius: 5px;
+  margin-right: 15px;
+  font-weight: bold;
+
+}
+
+.message{
+  padding: 10px 20px ;
+  color: black;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+}
+
+/* 14f */
+.first-sidebar{
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  bottom: 0;
+  width: 68px;
+  padding-left: 11px;
+}
+.jisoo{
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+.rose{
+  margin-top: 15px;
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-bottom: 10px;
+
+}
+.jennie{
+  width: 55px;
+  height: 55px;
+  border-radius: 30px;
+  object-fit: cover;
+  margin-bottom: 10px; 
+  object-position: bottom;
+}
+
+/* second side bar */
+.second-sidebar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 79px ;
+  top: 60px;
+  padding: 20px 10px ;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 150px;
+}
+.row1{
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+.row2,.row3,.row4{
+  margin-bottom: 10px;
+  color: rgb(223, 219, 219);
+
+}
