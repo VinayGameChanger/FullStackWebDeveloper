@@ -1,0 +1,41 @@
+
+.channel-picture{
+  position: relative;
+}
+
+.tooltip-pic-container {
+  background-color: white;
+  color: black;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  box-shadow: inset 8px 8px 20px grey;
+  width: 200px;
+  padding: 10px 10px;
+  box-shadow: 2px 2px 5px grey;
+  border-radius: 5px;
+  opacity: 0;
+  bottom: -30px;
+  right: -220px;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+.channel-picture:hover .tooltip-pic-container {
+opacity: 1;
+}
+
+
+.tooltip-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin-right: 15px;
+}
+.tooltip-name{
+  font-weight: bold;
+  margin-bottom: 4px;
+
+}
+.tooltip-subscriber{
+  color: rgb(66, 63, 63);
+}

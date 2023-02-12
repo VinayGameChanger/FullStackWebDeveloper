@@ -1,0 +1,37 @@
+/* 
+position: fixed (placed inthe browser window with respect to browser window screen
+position:absolute placed on the page with respect to page*/
+
+/* if position absolurte is within the position fixed then the distance taken wrt to position fixed element */
+/* 
+use position relative if you want measure distance with respect to position relative and put position absolute in position relative */
+
+body{
+  height: 3000px;
+}
+.close{
+  background-color: black;
+  color: white;
+  padding: 5px 8px;
+  position: absolute;
+  border-radius: 100px;
+  top: -8px;
+  left: -8px;
+}
+
+.fixed{
+  background-color: grey;
+  width: 320px;
+  height: 180px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.time-stamp{
+  background-color: black;
+  position: absolute;
+  color: white;
+  right: 10px;
+  bottom: 10px;
+  padding: 3px 3px;
+}

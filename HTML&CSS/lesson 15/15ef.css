@@ -1,0 +1,38 @@
+.container{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  display: inline-block;
+}
+.cloth-pic{
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  border: 1px solid grey;
+}
+.off{
+  position: absolute;
+ background-color: black;
+ color: white;
+ padding: 5px 10px;
+ top: 10px;
+ right: 0;
+}
+
+.overlay{
+  background-color: rgba(255, 255, 255,0.8);
+  position: absolute;
+  width: 300px;
+  height: 100px;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cart{
+  color: black;
+  position: absolute;
+  background-color: white;
+  border: 1.5px solid black;
+  padding: 5px 10px;
+}
