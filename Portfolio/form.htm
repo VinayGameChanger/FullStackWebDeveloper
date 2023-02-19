@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to make form in HTML</title>
+</head>
+<body>
+
+    <form action="/action.js"><!--action attrubute mean what action need to be done after data is enterned by user in most cases data is send to the backend server-->
+        <input type="text" placeholder="Enter First Name"><hr>
+        <input type="text" placeholder="Enter Last Name"><hr>
+        <input type="password" placeholder="Enter Password">
+        <p>Choose your Batch</p>
+        <hr>
+        <label for="01"><!--Clickable name as well as checkbox-->
+        <input type="radio" value="Full Stack Web Developer" name="Course" id="01">Full Stack Web Developer
+    </label>
+     <hr>
+     <label for="02">
+        <input type="radio" value="Data Science" name="Course" id="02">Data Science
+    </label>
+    <hr>
+<br>
+<!--Check box is used when multiple item we have to select-->
+<p>Choose subject</p>
+<label for="05">
+<input type="checkbox" value="HTML" name="Subject" id="05">HTML</label>
+<label for="06">
+<input type="checkbox" value="JS" name="Subject" id="06">JS</label>
+<label for="07">
+
+<input type="checkbox" value="CSS" name="Subject" id="07">CSS</label>
+<label for="08">
+
+<input type="checkbox" value="REACT" name="Subject" id="08">REACT</label>
+    </form>
+    <hr>
+    <textarea name="feedback" id="10" placeholder="Enter Feedback" cols="50" rows="5"></textarea>
+<hr>
+<br>
+<p>Select Your Location</p>
+<select name="City" id="77">
+    <option value="Faridabad">Faridabad</option>
+    <option value="Delhi">Delhi</option>
+    <option value="Assam">Assam</option>
+    <option value="nagpur">nagpur</option>
+    <option value="US">US</option>
+    <hr>
+    <br>
+</select>
+
+<input type="submit" value="submit">
+</body>
+</html>
