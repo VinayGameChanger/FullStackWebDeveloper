@@ -1,0 +1,25 @@
+*{
+  font-family: Arial;
+}
+
+h1{
+  text-align: center;
+}
+#counter{
+  text-align: center;
+}
+body{
+background-color: rgb(209, 217, 235);
+}
+button{
+  color: white;
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.container-btn{
+  display: flex;
+  justify-content: center;
+}
